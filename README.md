@@ -11,17 +11,17 @@ Additional back-end for React Anilibria
 
 ## how to run:
 
-- create .env file with:
-  &nbsp;&nbsp;&nbsp; PORT=
-  &nbsp;&nbsp;&nbsp; DB_URL=
-  &nbsp;&nbsp;&nbsp; JWT_ACCESS_SECRET=
-  &nbsp;&nbsp;&nbsp; JWT_REFRESH_SECRET=
-  &nbsp;&nbsp;&nbsp; SMTP_HOST=
-  &nbsp;&nbsp;&nbsp; SMTP_PORT=
-  &nbsp;&nbsp;&nbsp; SMTP_USER=
-  &nbsp;&nbsp;&nbsp; SMTP_PASSWORD=
-  &nbsp;&nbsp;&nbsp; API_URL=
-  &nbsp;&nbsp;&nbsp; CLIENT_URL=
+- create .env file with: <br />
+  PORT= <br />
+  DB_URL= <br />
+  JWT_ACCESS_SECRET= <br />
+  JWT_REFRESH_SECRET= <br />
+  SMTP_HOST= <br />
+  SMTP_PORT= <br />
+  SMTP_USER= <br />
+  SMTP_PASSWORD= <br />
+  API_URL= <br />
+  CLIENT_URL= <br />
 - fill in you data
 - run: yarn
 - and start dev server: yarn dev
