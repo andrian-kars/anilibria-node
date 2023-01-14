@@ -17,5 +17,7 @@ router.get("/activate/:link", userController.activate);
 router.get("/refresh", userController.refresh);
 router.get("/users", authMiddleware, userController.getUsers);
 router.get("/releases", authMiddleware, releasesController.getReleases);
+router.post("/releases", authMiddleware, releasesController.addRelease);
+router.delete("/releases", authMiddleware, releasesController.deleteRelease);
 
 module.exports = router;
