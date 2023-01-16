@@ -16,7 +16,7 @@ class UserController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true,
         sameSite: "lax",
-        domain: process.env.CLIENT_LOCAL_URL,
+        domain: `${process.env.CLIENT_LOCAL_URL}/anilibria`,
       });
       return res.json(userData);
     } catch (e) {
@@ -32,7 +32,7 @@ class UserController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true,
         sameSite: "lax",
-        domain: process.env.CLIENT_LOCAL_URL,
+        domain: `${process.env.CLIENT_LOCAL_URL}/anilibria`,
       });
       return res.json(userData);
     } catch (e) {
@@ -69,7 +69,7 @@ class UserController {
         maxAge: 30 * 24 * 60 * 60 * 1000,
         httpOnly: true,
         sameSite: "lax",
-        domain: process.env.CLIENT_LOCAL_URL,
+        domain: `${process.env.CLIENT_LOCAL_URL}/anilibria`,
       });
       return res.json(userData);
     } catch (e) {
