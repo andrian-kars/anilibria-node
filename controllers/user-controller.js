@@ -17,7 +17,6 @@ class UserController {
         httpOnly: true,
         sameSite: "none",
         secure: true,
-        domain: [process.env.CLIENT_URL, process.env.CLIENT_LOCAL_URL],
       });
       return res.json(userData);
     } catch (e) {
@@ -34,7 +33,6 @@ class UserController {
         httpOnly: true,
         sameSite: "none",
         secure: true,
-        domain: [process.env.CLIENT_URL, process.env.CLIENT_LOCAL_URL],
       });
       return res.json(userData);
     } catch (e) {
@@ -72,7 +70,6 @@ class UserController {
         httpOnly: true,
         sameSite: "none",
         secure: true,
-        domain: [process.env.CLIENT_URL, process.env.CLIENT_LOCAL_URL],
       });
       return res.json(userData);
     } catch (e) {
